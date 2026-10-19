@@ -1,0 +1,29 @@
+# Private database and email configuration
+/config/database.php
+/config/email.php
+/.env
+.env
+.env.*
+
+# Student uploads and other uploaded files
+/uploads/
+**/uploads/
+
+# Composer dependencies
+/vendor/
+**/vendor/
+
+# Database exports and backups
+*.sql
+*.zip
+*.bak
+*.log
+
+# Temporary operating-system files
+.DS_Store
+Thumbs.db
+# Local email testing script
+/test_email.php
+# Keep faculty photos out of GitHub
+/images/faculty/
+/images/faculty-group/
